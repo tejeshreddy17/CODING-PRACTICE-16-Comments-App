@@ -55,12 +55,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 100%;
 }
 .name-time-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .bottom-section-card {
   display: flex;
@@ -70,6 +72,7 @@
   flex-grow: 1;
   width: 100%;
   margin-bottom: 15px;
+  margin-top: 10px;
 }
 .like-container {
   display: flex;
@@ -94,6 +97,9 @@
   padding: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
+  margin-right: 0px;
+  width: 30px;
+  cursor: pointer;
 }
 .liked-color {
   color: #0ea5e9;
@@ -110,13 +116,16 @@
   padding: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
+  margin-right: 0px;
+  width: 15px;
+  cursor: pointer;
 }
 .profile-logo-style {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 2px;
+  padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 10px;
   padding-right: 10px;
@@ -136,15 +145,20 @@
   margin-right: 15px;
   margin-bottom: 5px;
   margin-top: 0px;
+  padding-top: 0px;
+  font-size: 18px;
 }
 .comment-created-time {
   color: #94a3b8;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-top: 0px;
+  font-size: 12px;
+  font-weight: 500;
 }
 .comment-description-style {
   margin-top: 0px;
-  color: #475569;
+  color: #1e293b;
+  font-weight: 400;
 }
 ul {
   list-style-type: none;
