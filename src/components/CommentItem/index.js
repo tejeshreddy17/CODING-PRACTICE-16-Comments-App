@@ -1,4 +1,6 @@
 // Write your code here
+import {formatDistanceToNow} from 'date-fns'
+
 import './index.css'
 
 const CommentItem = props => {
@@ -16,6 +18,8 @@ const CommentItem = props => {
 
   const likedButton = isLiked ? 'liked-color' : ''
 
+  const durationfromcomment = formatDistanceToNow(time)
+
   return (
     <li className="comment-card">
       <div className="top-section-card">
@@ -27,7 +31,7 @@ const CommentItem = props => {
         <div className="name-time-comment-container">
           <div className="name-time-container">
             <p className="comment-creator-name">{name}</p>
-            <p className="comment-created-time">{time}</p>
+            <p className="comment-created-time">{durationfromcomment}</p>
           </div>
           <p className="comment-description-style">{comment}</p>
         </div>

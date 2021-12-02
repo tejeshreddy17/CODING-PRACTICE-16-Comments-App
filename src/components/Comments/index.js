@@ -46,7 +46,7 @@ class Comments extends Component {
               initialContainerBackgroundClassNames[
                 Math.floor(Math.random() * 7)
               ],
-            time: formatDistanceToNow(new Date()),
+            time: new Date(),
           },
         ],
         name: '',
