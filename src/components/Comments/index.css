@@ -1,0 +1,119 @@
+/* Write your CSS here */
+.background-card {
+  padding: 25px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.top-heading-style {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+.input-field-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 15px;
+  width: 50%;
+}
+.name-input {
+  flex-grow: 1;
+  width: 100%;
+  border-color: #cbd2d9;
+  height: 35px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  outline: none;
+  font-size: 14px;
+}
+.comment-input {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 150px;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px;
+  color: #1e293b;
+  outline: none;
+  font-size: 14px;
+}
+.top-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cbd2d9;
+  width: 100%;
+}
+.number-of-comments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+}
+.number-of-comments-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  background-color: #0284c7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.comments-style {
+  margin: 0px;
+  color: white;
+  font-weight: 500;
+}
+button {
+  background-color: #0284c7;
+  width: 120px;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.comments-image-style {
+  height: 250px;
+}
+@media screen and (max-width: 768px) {
+  .top-card-container {
+    flex-direction: column;
+  }
+  .comments-image-style {
+    order: 1;
+    width: 100%;
+  }
+  .input-field-card {
+    order: 2;
+    width: 100%;
+  }
+  .top-heading-style {
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+}
+.Form-heading-style {
+  color: #334155;
+  font-weight: 500;
+  font-size: 16px;
+}

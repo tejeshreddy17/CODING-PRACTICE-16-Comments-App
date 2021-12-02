@@ -1,0 +1,153 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-grow: 1;
+  border-bottom-style: solid;
+  border-bottom-color: #cbd2d9;
+  border-bottom-width: 1px;
+  padding-top: 5px;
+}
+.profile-logo-style {
+  align-self: flex-start;
+}
+.top-section-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+}
+.name-time-comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.name-time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.bottom-section-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+}
+.like-logo {
+  margin-right: 15px;
+}
+.like-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #94a3b8;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.liked-color {
+  color: #0ea5e9;
+}
+.delete-button-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  color: #94a3b8;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.profile-logo-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-radius: 35px;
+}
+.profile-logo-alphabet {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  font-weight: 700;
+}
+
+.comment-creator-name {
+  color: #1e293b;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.comment-created-time {
+  color: #94a3b8;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.comment-description-style {
+  margin-top: 0px;
+  color: #475569;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 100%;
+}
